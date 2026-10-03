@@ -1,0 +1,23 @@
+{
+  "recordedAt": "2026-10-03T22:31:09.213660+00:00",
+  "nodeVersion": "v22.16.0",
+  "nodeChecks": {
+    "command": "node --test",
+    "exitCode": 0,
+    "tests": 4,
+    "output": "TAP version 13\n# Subtest: valid fields are trimmed without mutating the input\nok 1 - valid fields are trimmed without mutating the input\n  ---\n  duration_ms: 12.4641\n  type: 'test'\n  ...\n# Subtest: whitespace-only name fails while valid email survives\nok 2 - whitespace-only name fails while valid email survives\n  ---\n  duration_ms: 4.8405\n  type: 'test'\n  ...\n# Subtest: invalid then corrected email does not retain stale errors\nok 3 - invalid then corrected email does not retain stale errors\n  ---\n  duration_ms: 1.4523\n  type: 'test'\n  ...\n# Subtest: multiple at-signs and whitespace are outside the simple format\nok 4 - multiple at-signs and whitespace are outside the simple format\n  ---\n  duration_ms: 1.148\n  type: 'test'\n  ...\n1..4\n# tests 4\n# suites 0\n# pass 4\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 867.4155\n"
+  },
+  "browserChecks": {
+    "id": 13,
+    "status": "passed",
+    "checks": [
+      "No document horizontal overflow at 1200, 800, 500 and 320 CSS pixels",
+      "First Tab reveals skip link; Enter focuses main",
+      "Blank-name error focuses field and preserves valid email; correction succeeds without navigation or stale error"
+    ],
+    "browser": "Installed Microsoft Edge via Playwright",
+    "checkedAt": "2026-10-03T22:28:14.869473+00:00",
+    "consoleErrors": []
+  },
+  "scope": "Actual local reference verification. Learner stories are not implemented. Remote CI results are separate."
+}
