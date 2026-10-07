@@ -14,25 +14,25 @@ The smallest useful result answers this user need: A form author needs immediate
 
 Start from the two labeled inputs in public/index.html. Notice novalidate: the workshop owns its submit feedback instead of competing with the browser's built-in error bubble. The email input still communicates its purpose. The instructional regex recognizes a simple shape; do not describe that as proof an address exists.
 
-**Pause and produce evidence:** Name contains only spaces; email is valid. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** a@@example.com. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Step 2: Keep the core pure
 
 Trace values and errors through validateFields. trim creates normalized strings, while the original object stays unchanged. Empty-after-trim is the meaningful name boundary. A test containing a regular nonempty name cannot distinguish a correct validator from one that accepts spaces as a name.
 
-**Pause and produce evidence:** Correct the name and resubmit. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** Name contains only spaces; email is valid. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Step 3: Render errors accessibly
 
 Follow each error key into the matching paragraph and aria-invalid attribute. aria-describedby connects the field with its explanation. Focus is an effect performed after the result is known; it does not belong inside the pure validator. Verify focus with the keyboard as well as reading a red message.
 
-**Pause and produce evidence:** a@@example.com. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** Name contains only spaces; email is valid. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Step 4: Exercise recovery
 
 Submit a blank name with a valid email, correct only the name and submit again. Then change a successful email into an invalid value. The old success sentence should disappear while editing. These sequences test state transitions, which isolated valid and invalid screenshots would miss.
 
-**Pause and produce evidence:** a@@example.com. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** Correct the name and resubmit. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Keep the implementation reviewable
 

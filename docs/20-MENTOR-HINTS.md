@@ -104,9 +104,9 @@ Look for a concrete connection to `public/core.js` or `public/app.js`. A strong 
 
 **First hint:** The desired improvement is “Validate a small known option alongside the two strings.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Add a labeled select; extend the validator's result shape; reject the placeholder without erasing other fields.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Add a labeled select; extend the validator's result shape; reject the placeholder without erasing other fields. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: A missing choice is distinct from a valid option and correction recovers.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: A missing choice is distinct from a valid option and correction recovers. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose three fictional workshops. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -114,9 +114,9 @@ Look for a concrete connection to `public/core.js` or `public/app.js`. A strong 
 
 **First hint:** The desired improvement is “Return to editing without losing typed details.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Define review visibility; keep inputs as the source; clear only the review result on cancel.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Define review visibility; keep inputs as the source; clear only the review result on cancel. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Cancel preserves valid and invalid text exactly as typed.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Cancel preserves valid and invalid text exactly as typed. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose where focus returns. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -124,9 +124,9 @@ Look for a concrete connection to `public/core.js` or `public/app.js`. A strong 
 
 **First hint:** The desired improvement is “Summarize the current attempt without storing another total.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Derive the count from the error map; render it with feedback; clear it on editing.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Derive the count from the error map; render it with feedback; clear it on editing. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Count matches field errors and is never stale after correction.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Count matches field errors and is never stale after correction. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose singular and plural messages. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -134,9 +134,9 @@ Look for a concrete connection to `public/core.js` or `public/app.js`. A strong 
 
 **First hint:** The desired improvement is “Clarify what the current validator actually accepts.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Show a short input hint; avoid inventing identity restrictions; include Unicode and punctuation examples.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Show a short input hint; avoid inventing identity restrictions; include Unicode and punctuation examples. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: The hint agrees with the nonblank rule and does not claim real identity verification.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: The hint agrees with the nonblank rule and does not claim real identity verification. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose inclusive example names. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -144,9 +144,9 @@ Look for a concrete connection to `public/core.js` or `public/app.js`. A strong 
 
 **First hint:** The desired improvement is “Verify markup-looking input remains text.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Enter a fictional string containing angle brackets; use text rendering; inspect whether elements are created.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Enter a fictional string containing angle brackets; use text rendering; inspect whether elements are created. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: User-entered markup is displayed as data rather than executed.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: User-entered markup is displayed as data rather than executed. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose a harmless visible test string. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -154,9 +154,9 @@ Look for a concrete connection to `public/core.js` or `public/app.js`. A strong 
 
 **First hint:** The desired improvement is “Practice optional versus invalid values.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Define blank as allowed; normalize the note separately; include it in review only under the chosen policy.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Define blank as allowed; normalize the note separately; include it in review only under the chosen policy. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Empty note does not block an otherwise valid form.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Empty note does not block an otherwise valid form. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose a length limit and display policy. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -164,9 +164,9 @@ Look for a concrete connection to `public/core.js` or `public/app.js`. A strong 
 
 **First hint:** The desired improvement is “Test sequences rather than isolated screenshots.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Record both-invalid, one-fixed, both-fixed and edited-after-success states; inspect focus and aria-invalid each time.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Record both-invalid, one-fixed, both-fixed and edited-after-success states; inspect focus and aria-invalid each time. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Every state names expected feedback and preserved input.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Every state names expected feedback and preserved input. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose a repeatable keyboard route. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -174,9 +174,9 @@ Look for a concrete connection to `public/core.js` or `public/app.js`. A strong 
 
 **First hint:** The desired improvement is “Improve misleading email success wording.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Audit all feedback; replace verified-address claims with format-reviewed wording; preserve the validation rule.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Audit all feedback; replace verified-address claims with format-reviewed wording; preserve the validation rule. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: No message implies email was sent or deliverability was checked.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: No message implies email was sent or deliverability was checked. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose a precise success sentence. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -184,9 +184,9 @@ Look for a concrete connection to `public/core.js` or `public/app.js`. A strong 
 
 **First hint:** The desired improvement is “Explain which error receives focus first.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Compare DOM order with error-map construction order; write a two-error fixture; document the chosen rule.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Compare DOM order with error-map construction order; write a two-error fixture; document the chosen rule. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: The reported first error and focused control agree.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: The reported first error and focused control agree. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Decide whether the order should come from an explicit field list. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 

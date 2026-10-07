@@ -6,8 +6,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 01: Add a friendly name length limit
 
-**User need:** As a learner or user of DOM Field Inspector, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Choose and document a maximum display-name length, counting policy included, in validateFields.
 
 **Implementation plan:**
@@ -26,8 +24,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 02: Add an error summary
-
-**User need:** As a learner or user of DOM Field Inspector, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Derive a summary list from the error map and link each entry to its input.
 
@@ -48,8 +44,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 03: Preserve a review snapshot
 
-**User need:** As a learner or user of DOM Field Inspector, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** After successful review, show a clearly labeled normalized snapshot separate from the inputs. Invalidate it on editing.
 
 **Implementation plan:**
@@ -68,8 +62,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 04: Validate on blur as an alternative
-
-**User need:** As a learner or user of DOM Field Inspector, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Implement a branch with field validation on blur and explain how it differs from submit-time validation.
 
@@ -90,8 +82,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 05: Add a reset action
 
-**User need:** As a learner or user of DOM Field Inspector, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Clear input values and all error/success state through one reset handler.
 
 **Implementation plan:**
@@ -110,8 +100,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 06: Expand email examples honestly
-
-**User need:** As a learner or user of DOM Field Inspector, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Add fixtures for plus signs, spaces and malformed at-sign placement; document the limited regex contract.
 
